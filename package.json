@@ -1,0 +1,30 @@
+{
+  "name": "devops-pipeline",
+  "version": "1.0.0",
+  "description": "Renders Markdown source files into HTML pages",
+  "main": "tools/build.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "node tools/build.js",
+    "test": "node --test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "markdown-it": "^15.0.3"
+  },
+  "bin": {
+    "devops-build": "tools/build.js"
+  },
+  "files": [
+    "tools/",
+    "src/",
+    "README.md",
+    "Makefile",
+    "package.json",
+    "package-lock.json"
+  ]
+}
